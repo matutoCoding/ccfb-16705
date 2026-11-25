@@ -1,0 +1,20 @@
+{
+  "name": "jade-light-studio",
+  "version": "1.0.0",
+  "description": "玉雕透光与取料推演系统 (WebGPU + TypeScript)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@webgpu/types": "^0.1.51",
+    "fake-indexeddb": "^6.0.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  }
+}
